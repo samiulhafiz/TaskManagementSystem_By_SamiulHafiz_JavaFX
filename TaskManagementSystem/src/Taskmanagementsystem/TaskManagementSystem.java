@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package planmanagementsystem;
+package Taskmanagementsystem;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -13,9 +8,9 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author WINDOWS 10
+ * @author samiu
  */
-public class PlanManagementSystem extends Application {
+public class TaskManagementSystem extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
@@ -23,7 +18,7 @@ public class PlanManagementSystem extends Application {
         
         Scene scene = new Scene(root);
         
-        stage.setTitle("Plan Management System");
+        stage.setTitle("Task Management System");
         
         stage.setScene(scene);
         stage.show();
