@@ -24,7 +24,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author WINDOWS 10
+ * @author samiu
  */
 public class FXMLDocumentController implements Initializable {
 
@@ -212,9 +212,3 @@ public class FXMLDocumentController implements Initializable {
     }
 
 }
-
-// THATS IT FOR THIS VIDEO, THANKS FOR WATCHING : ) 
-// PLEASE SUBSCRIBE OUR CHANNEL FOR MORE SYSTEM TUTORIALS  : ) 
-// THANK YOU!
-
-// ~MARCOMAN
