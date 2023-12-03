@@ -9,7 +9,7 @@ import java.sql.Date;
 
 /**
  *
- * @author WINDOWS 10
+ * @author samiu
  */
 public class planData {
     

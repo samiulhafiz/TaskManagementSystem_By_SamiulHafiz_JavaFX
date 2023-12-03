@@ -15,7 +15,7 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Taskmanagementsystem.planController">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Taskmanagementsystem.planController">
    <children>
       <AnchorPane fx:id="main_form" prefHeight="200.0" prefWidth="200.0">
          <children>
@@ -30,7 +30,7 @@
                                     <Font name="Tahoma" size="14.0" />
                                  </font>
                               </Label>
-                              <Label fx:id="username" layoutX="937.0" layoutY="18.0" prefHeight="19.0" prefWidth="149.0" text="MarcoMan" textFill="WHITE" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="18.0">
+                              <Label fx:id="username" layoutX="937.0" layoutY="18.0" prefHeight="19.0" prefWidth="149.0" text="Samiul Hafiz" textFill="WHITE" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="18.0">
                                  <font>
                                     <Font name="Arial Bold" size="15.0" />
                                  </font>
@@ -49,8 +49,8 @@
                   <AnchorPane prefHeight="545.0" prefWidth="240.0" styleClass="nav-form" stylesheets="@planDesign.css" BorderPane.alignment="CENTER">
                      <children>
                         <Button fx:id="home_btn" layoutX="11.0" layoutY="54.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="219.0" styleClass="nav-btn" stylesheets="@planDesign.css" text="Home" />
-                        <Button fx:id="myPlans_btn" layoutX="11.0" layoutY="102.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="219.0" styleClass="nav-btn" stylesheets="@planDesign.css" text="My Plans" />
-                        <Button fx:id="finishedPlans_btn" layoutX="11.0" layoutY="150.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="219.0" styleClass="nav-btn" stylesheets="@planDesign.css" text="Finished Plans" />
+                        <Button fx:id="myPlans_btn" layoutX="11.0" layoutY="102.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="219.0" styleClass="nav-btn" stylesheets="@planDesign.css" text="My Tasks" />
+                        <Button fx:id="finishedPlans_btn" layoutX="11.0" layoutY="150.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="219.0" styleClass="nav-btn" stylesheets="@planDesign.css" text="Finished Tasks" />
                         <Button fx:id="logout_btn" layoutX="11.0" layoutY="491.0" mnemonicParsing="false" onAction="#logout" prefHeight="40.0" prefWidth="40.0" styleClass="logout" stylesheets="@planDesign.css" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="11.0">
                            <graphic>
                               <FontAwesomeIcon fill="WHITE" glyphName="SIGN_OUT" size="2em" />
@@ -78,7 +78,7 @@
                                           <Font name="Tahoma" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="home_username" layoutX="360.0" layoutY="68.0" text="MarcoMan" textFill="WHITE">
+                                    <Label fx:id="home_username" layoutX="360.0" layoutY="68.0" text="Samiul Hafiz" textFill="WHITE">
                                        <font>
                                           <Font name="Tahoma" size="18.0" />
                                        </font>
@@ -88,7 +88,7 @@
                                           <Font name="Tahoma" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="home_dateRegistered" layoutX="360.0" layoutY="109.0" text="MarcoMan" textFill="WHITE">
+                                    <Label fx:id="home_dateRegistered" layoutX="360.0" layoutY="109.0" text="17/10/2000" textFill="WHITE">
                                        <font>
                                           <Font name="Tahoma" size="18.0" />
                                        </font>
@@ -97,7 +97,7 @@
                               </AnchorPane>
                               <AnchorPane layoutX="60.0" layoutY="252.0" prefHeight="186.0" prefWidth="354.0" styleClass="card" stylesheets="@planDesign.css">
                                  <children>
-                                    <Label layoutX="150.0" layoutY="151.0" text="Number of Active Plans" textFill="WHITE">
+                                    <Label layoutX="150.0" layoutY="151.0" text="Number of Active Tasks" textFill="WHITE">
                                        <font>
                                           <Font size="15.0" />
                                        </font>
@@ -112,7 +112,7 @@
                               </AnchorPane>
                               <AnchorPane layoutX="446.0" layoutY="252.0" prefHeight="186.0" prefWidth="354.0" styleClass="card" stylesheets="@planDesign.css">
                                  <children>
-                                    <Label layoutX="160.0" layoutY="151.0" text="Finished Plans" textFill="WHITE">
+                                    <Label layoutX="160.0" layoutY="151.0" text="Finished Tasks" textFill="WHITE">
                                        <font>
                                           <Font size="15.0" />
                                        </font>
