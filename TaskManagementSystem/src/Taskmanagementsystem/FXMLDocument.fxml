@@ -11,8 +11,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Taskmanagementsystem.FXMLDocumentController">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Taskmanagementsystem.FXMLDocumentController">
    <children>
       <AnchorPane prefHeight="200.0" prefWidth="200.0">
          <children>
@@ -22,8 +21,8 @@
                      <children>
                         <AnchorPane fx:id="login_form" layoutX="165.0" layoutY="41.0" prefHeight="368.0" prefWidth="321.0" styleClass="white-form" stylesheets="@design.css">
                            <children>
-                              <FontAwesomeIcon fill="#469d3c" glyphName="USER" layoutX="137.0" layoutY="65.0" size="5em" />
-                              <Label layoutX="114.0" layoutY="74.0" text="Login User">
+                              <FontAwesomeIcon fill="#3863ff" glyphName="USER" layoutX="137.0" layoutY="75.0" size="5em" />
+                              <Label layoutX="114.0" layoutY="84.0" text="User Login">
                                  <font>
                                     <Font name="Tahoma" size="20.0" />
                                  </font>

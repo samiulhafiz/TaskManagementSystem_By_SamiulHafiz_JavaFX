@@ -1,51 +1,50 @@
-
 .top-form{
-    -fx-background-color: linear-gradient(to bottom right, #126a7c, #345730);
+    -fx-background-color: linear-gradient(to bottom right, #0061ff, #60efff);
 }
 
 .nav-form{
-    -fx-background-color: #2b3929;
+    -fx-background-color: #0e2e53;
 }
 
 .nav-btn{
     -fx-background-color:transparent;
-    -fx-border-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-border-color: linear-gradient(to bottom right, #40c9ff, #40c9ff);
     -fx-text-fill: #fff;
     -fx-font-size: 14px;
     -fx-cursor: hand;
 }
 .nav-btn:hover{
-    -fx-background-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-background-color: linear-gradient(to bottom right, #0061ff, #60efff);
     -fx-background-radius: 8px;
 }
 
 .center-form{
-    -fx-background-color: #20281e;
+    -fx-background-color: #071729;
 }
 
 .card{
-    -fx-background-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-background-color: linear-gradient(to bottom right, #40c9ff, #e81cff);
     -fx-background-radius: 8px;
 }
 
 .logout{
-    -fx-background-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-background-color: linear-gradient(to bottom right, #0061ff, #60efff);
     -fx-background-radius: 50px;
     -fx-cursor: hand;
 }
 .logout:hover{
-    -fx-background-color: linear-gradient(to bottom right, #049db8, #469d3c);
+    -fx-background-color: linear-gradient(to bottom right, #40c9ff, #e81cff);
 }
 
 .border{
-    -fx-border-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-border-color: linear-gradient(to bottom right, #0061ff, #60efff);
     -fx-border-radius: 8px;
     -fx-border-width: 2px;
 }
 
 .table-view{
     -fx-background-color: transparent;
-    -fx-border-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-border-color: linear-gradient(to bottom right, #0061ff, #60efff);
     -fx-border-width: 2px;
     -fx-border-radius: 8px;
     -fx-padding: 0;
@@ -54,7 +53,7 @@
     -fx-alignment: CENTER;
 }
 .table-view .column-header-background{
-    -fx-background-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-background-color: linear-gradient(to bottom right, #0061ff, #60efff);
     -fx-background-radius: 8px 8px 0 0;
     -fx-background-insets: 0 0 0 0;
 }
@@ -69,12 +68,12 @@
 }
 
 .btn{
-    -fx-background-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-background-color: linear-gradient(to bottom right, #0061ff, #60efff);
     -fx-background-radius: 5px;
     -fx-font-size: 13px;
     -fx-text-fill: #fff;
     -fx-cursor: hand;
 }
 .btn:hover{
-    -fx-background-color: linear-gradient(to bottom right, #049db8, #469d3c);
+    -fx-background-color: linear-gradient(to bottom right, #40c9ff, #e81cff);
 }

@@ -49,8 +49,8 @@
                   <AnchorPane prefHeight="545.0" prefWidth="240.0" styleClass="nav-form" stylesheets="@planDesign.css" BorderPane.alignment="CENTER">
                      <children>
                         <Button fx:id="home_btn" layoutX="11.0" layoutY="54.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="219.0" styleClass="nav-btn" stylesheets="@planDesign.css" text="Home" />
-                        <Button fx:id="myPlans_btn" layoutX="11.0" layoutY="102.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="219.0" styleClass="nav-btn" stylesheets="@planDesign.css" text="My Tasks" />
-                        <Button fx:id="finishedPlans_btn" layoutX="11.0" layoutY="150.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="219.0" styleClass="nav-btn" stylesheets="@planDesign.css" text="Finished Tasks" />
+                        <Button fx:id="myPlans_btn" layoutX="11.0" layoutY="142.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="219.0" styleClass="nav-btn" stylesheets="@planDesign.css" text="My Tasks" />
+                        <Button fx:id="finishedPlans_btn" layoutX="11.0" layoutY="230.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="219.0" styleClass="nav-btn" stylesheets="@planDesign.css" text="Finished Tasks" />
                         <Button fx:id="logout_btn" layoutX="11.0" layoutY="491.0" mnemonicParsing="false" onAction="#logout" prefHeight="40.0" prefWidth="40.0" styleClass="logout" stylesheets="@planDesign.css" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="11.0">
                            <graphic>
                               <FontAwesomeIcon fill="WHITE" glyphName="SIGN_OUT" size="2em" />
@@ -69,10 +69,10 @@
                      <children>
                         <AnchorPane fx:id="home_form" layoutX="14.0" layoutY="14.0" prefHeight="545.0" prefWidth="860.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
-                              <AnchorPane layoutX="14.0" layoutY="21.0" prefHeight="200.0" prefWidth="832.0" styleClass="card" stylesheets="@planDesign.css">
+                              <AnchorPane layoutX="58.0" layoutY="71.0" prefHeight="200.0" prefWidth="742.0" styleClass="card" stylesheets="@planDesign.css">
                                  <children>
-                                    <Circle layoutX="106.0" layoutY="100.0" radius="92.0" stroke="BLACK" strokeType="INSIDE" />
-                                    <FontAwesomeIcon fill="WHITE" glyphName="USER" layoutX="59.0" layoutY="142.0" size="10em" />
+                                    <Circle fill="#7b00ff" layoutX="106.0" layoutY="109.0" radius="79.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="8.0" />
+                                    <FontAwesomeIcon fill="WHITE" glyphName="USER" layoutX="73.0" layoutY="139.0" size="7em" />
                                     <Label layoutX="221.0" layoutY="68.0" text="Username:" textFill="WHITE">
                                        <font>
                                           <Font name="Tahoma" size="18.0" />
@@ -95,7 +95,7 @@
                                     </Label>
                                  </children>
                               </AnchorPane>
-                              <AnchorPane layoutX="60.0" layoutY="252.0" prefHeight="186.0" prefWidth="354.0" styleClass="card" stylesheets="@planDesign.css">
+                              <AnchorPane layoutX="60.0" layoutY="302.0" prefHeight="186.0" prefWidth="354.0" styleClass="card" stylesheets="@planDesign.css">
                                  <children>
                                     <Label layoutX="150.0" layoutY="151.0" text="Number of Active Tasks" textFill="WHITE">
                                        <font>
@@ -110,7 +110,7 @@
                                     </Label>
                                  </children>
                               </AnchorPane>
-                              <AnchorPane layoutX="446.0" layoutY="252.0" prefHeight="186.0" prefWidth="354.0" styleClass="card" stylesheets="@planDesign.css">
+                              <AnchorPane layoutX="446.0" layoutY="302.0" prefHeight="186.0" prefWidth="354.0" styleClass="card" stylesheets="@planDesign.css">
                                  <children>
                                     <Label layoutX="160.0" layoutY="151.0" text="Finished Tasks" textFill="WHITE">
                                        <font>
