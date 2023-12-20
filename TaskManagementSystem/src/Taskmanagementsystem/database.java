@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 /**
  *
- * @author samiul
+ * @author samiu
  */
 public class database {
     
@@ -15,7 +15,7 @@ public class database {
             
             Class.forName("com.mysql.jdbc.Driver");
             
-            Connection connect = DriverManager.getConnection("jdbc:mysql://localhost/taskmanagement", "root", ""); // root is the default username while "" or empty or null is the default password
+            Connection connect = DriverManager.getConnection("jdbc:mysql://localhost/taskmanagement", "root", "");
             return connect;
         }catch(Exception e){e.printStackTrace();}
         return null;

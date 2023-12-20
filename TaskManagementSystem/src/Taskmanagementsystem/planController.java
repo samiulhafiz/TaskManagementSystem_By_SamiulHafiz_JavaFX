@@ -36,7 +36,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author samiul
+ * @author samiu
  */
 public class planController implements Initializable {
 
@@ -671,10 +671,9 @@ public class planController implements Initializable {
             Optional<ButtonType> option = alert.showAndWait();
 
             if (option.get().equals(ButtonType.OK)) {
-                // HIDE MAIN FORM
+                
                 logout_btn.getScene().getWindow().hide();
 
-                // LINK YOUR LOGIN FORM
                 Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
 
                 Stage stage = new Stage();

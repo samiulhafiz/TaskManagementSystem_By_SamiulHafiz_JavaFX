@@ -61,7 +61,6 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private Hyperlink su_alreadyhaveAccount;
 
-    // LETS CREATE OUR DATABASE
     private Connection connect;
     private PreparedStatement prepare;
     private ResultSet result;
@@ -97,10 +96,8 @@ public class FXMLDocumentController implements Initializable {
                     alert.setContentText("Successfully Login!");
                     alert.showAndWait();
 
-                    // TO HIDE THE LOGIN FORM
                     si_loginBtn.getScene().getWindow().hide();
 
-                    // TO SHOW THE MAIN FORM
                     Parent root = FXMLLoader.load(getClass().getResource("planController.fxml"));
 
                     Stage stage = new Stage();
@@ -141,7 +138,6 @@ public class FXMLDocumentController implements Initializable {
                 alert.setContentText("Please fill all blank fields");
                 alert.showAndWait();
             } else {
-                // CHECK THE USERNAME
                 String checkUsername = "SELECT username FROM user WHERE username = '"
                         + su_username.getText() + "'";
 
