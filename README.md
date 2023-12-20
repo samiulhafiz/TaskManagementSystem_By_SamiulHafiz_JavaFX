@@ -1,4 +1,4 @@
-![image](https://github.com/samiulhafiz/TaskManagementSystemBySamiulHafiz/assets/83121008/0f9fba71-ad56-445d-826a-03bdf9e8124e)# Task Management System By Samiul Hafiz
+# Task Management System By Samiul Hafiz
 # Project: Personal Productivity Dashboard
 
 **Description:** A personal productivity dashboard application using JavaFX which helps individuals manage their time and tasks more effectively. This project will combine time management, task organization, and data visualization into a user-friendly application.
